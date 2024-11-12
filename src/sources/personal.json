@@ -1,0 +1,11 @@
+{
+  "status": 200,
+  "result": {
+    "fullname": "Wai Phyo Naing",
+    "motto-text": "My solution, your success!",
+    "greeting-text": "🔥 My enthusiasm for web development, combined with my strong problem-solving skills, empowers me to create efficient and scalable applications",
+    "get-in-touch-text": "Have to start a new project with me? I’m not far behind you. Please send me an email. I will get back to you as soon as possible.",
+    "get-in-touch-img": "/images/lotties/contact-me-for-a-job.json",
+    "profile-img": "images/waiphyo.png"
+  }
+}

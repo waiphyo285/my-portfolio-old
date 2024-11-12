@@ -1,0 +1,378 @@
+@import url("https://fonts.googleapis.com/css2?family=Padauk&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Space+Mono&display=swap");
+
+:root {
+  --gray-color: #9fa6b2;
+  --white-color: #fdfdfd;
+
+  --primary-color: #7c9298;
+  --second-color: #707a80;
+  --third-color: #84846f;
+
+  --dark-text: #d3d3d3;
+  --dark-background: #1d1d1d;
+
+  --light-text: #1d1d1d;
+  --light-background: #d3d3d3;
+
+  --primary-font: "Myanmar Yinmar", sans-serif;
+  --second-font: "Quicksand", sans-serif;
+  --third-font: "Space Mono", monospace;
+
+  --gradient-color: linear-gradient(to right,
+      var(--primary-color),
+      var(--second-color));
+}
+
+.theme-light {
+  color: var(--light-text);
+  background: var(--light-background);
+}
+
+.theme-dark {
+  color: var(--dark-text);
+  background: var(--dark-background);
+}
+
+/* Scroll Bar */
+
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+  display: none;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--dark-background);
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--primary-color);
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: var(--primary-color);
+}
+
+::selection {
+  color: var(--second-color);
+}
+
+/* General elemnets */
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  font-family: var(--second-font);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: transparent;
+  background-image: var(--gradient-color);
+  -webkit-background-clip: text;
+}
+
+a {
+  color: var(--gray-color);
+  font-size: 18x;
+  text-decoration: none;
+}
+
+p {
+  font-size: 16px;
+  line-height: 32px;
+  text-indent: 5ch;
+}
+
+input,
+textarea {
+  border: none !important;
+  background: transparent !important;
+  color: var(--third-color) !important;
+  box-shadow: 0 0 0.1rem var(--third-color) !important;
+}
+
+a:hover {
+  color: var(--second-color);
+}
+
+/* Header */
+
+.cover {
+  /* background: linear-gradient(90deg,
+      var(--primary-color),
+      var(--primary-color)); */
+
+  background: var(--primary-color);
+  background-image: radial-gradient(var(--primary-color) 0.5px,
+      var(--white-color) 0.5px);
+  background-size: 20px 20px;
+}
+
+.cover-dark {
+  background: var(--primary-color);
+  background-image: radial-gradient(var(--primary-color) 0.5px,
+      var(--dark-background) 0.5px);
+  background-size: 20px 20px;
+}
+
+.profile-img {
+  /* width: 200px;
+  height: 200px;
+  object-fit: cover;
+  clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%); */
+
+  width: 200px;
+  height: 200px;
+  padding: 2px;
+  border-radius: 50%;
+  border: 4px solid var(--primary-color);
+  border-top-color: var(--second-color);
+  border-left-color: var(--second-color);
+  filter: drop-shadow(0 0 4px var(--gray-color));
+}
+
+.title-name {
+  font-size: 28px !important;
+  font-weight: bold !important;
+  font-family: var(--third-font);
+  color: transparent;
+  background-clip: text;
+  background-image: var(--gradient-color);
+}
+
+.my-summary {
+  font-size: 22px !important;
+  color: transparent;
+  background-clip: text;
+  background-image: var(--gradient-color);
+}
+
+.my-summary-sm {
+  font-size: 16px !important;
+}
+
+/* Add this to your CSS file or style section */
+@keyframes bounce {
+
+  0%,
+  20%,
+  50%,
+  80%,
+  100% {
+    transform: translateY(0);
+  }
+
+  40% {
+    transform: translateY(-20px);
+  }
+
+  60% {
+    transform: translateY(-10px);
+  }
+}
+
+.animated-arrow {
+  color: transparent;
+  background-image: var(--gradient-color);
+  -webkit-background-clip: text;
+  animation: bounce 2s infinite;
+}
+
+/* Body */
+
+.article:hover {
+  padding: 18px;
+  box-shadow: 0 0 0.05rem var(--third-color) !important;
+}
+
+/* Shadow */
+
+.shadow-sm {
+  opacity: 0.98;
+  box-shadow: 0 0 0.05rem var(--third-color) !important;
+}
+
+/* Separator */
+
+.separator {
+  display: flex;
+  margin: 10px 0;
+  align-items: center;
+}
+
+.separator h4 {
+  padding: 0 2rem;
+}
+
+.separator .line {
+  flex: 1;
+  height: 1px;
+}
+
+/* Map */
+
+.mapouter {
+  position: relative;
+  text-align: right;
+  width: 100%;
+  height: 220px;
+}
+
+.gmap_canvas {
+  overflow: hidden;
+  background: none !important;
+  width: 100%;
+  height: 220px;
+}
+
+.gmap_iframe {
+  height: 220px !important;
+}
+
+/* Nav */
+
+.nav-link,
+.nav-link:hover {
+  font-weight: bold;
+  color: var(--white-color) !important;
+}
+
+.nav-link.active {
+  background: transparent !important;
+}
+
+.nav-link.active span {
+  border-bottom: 5px solid var(--second-color);
+}
+
+.about-nav-item,
+.about-nav-item:hover {
+  font-weight: bold;
+  color: var(--black-color) !important;
+  border-left: 5px solid transparent !important;
+}
+
+.about-nav-item.active {
+  background: none !important;
+  border-left: 5px solid var(--primary-color) !important;
+}
+
+/* List item */
+
+.list-group {
+  border-radius: 0;
+  box-shadow: 0 0 0.05rem var(--third-color) !important;
+}
+
+.list-group-item {
+  color: var(--third-color);
+  padding: 8.8px 15px;
+  background: transparent !important;
+}
+
+/* Article */
+
+.article:hover {
+  background: inherit;
+  cursor: pointer;
+}
+
+/* Float & top */
+
+.relative {
+  position: relative;
+}
+
+.switch-btn {
+  position: fixed;
+  z-index: 20;
+  top: 20px;
+  left: 20px;
+}
+
+.social-btn {
+  position: fixed;
+  z-index: 20;
+  right: 20px;
+  bottom: 4.4rem;
+}
+
+.edit-data-btn {
+  position: fixed;
+  z-index: 20;
+  right: 20px;
+  top: 4.4rem;
+}
+
+.toggle-auth-btn {
+  position: fixed;
+  z-index: 20;
+  right: 20px;
+  top: 20px;
+}
+
+.top-to-btn,
+.toggle-msg-btn {
+  position: fixed;
+  z-index: 20;
+  right: 20px;
+  bottom: 20px;
+}
+
+.submit-btn,
+.submit-btn:hover {
+  border: none;
+  color: var(--white-color);
+  background: var(--gradient-color);
+}
+
+.gradient-btn,
+.gradient-btn:hover {
+  border: none;
+  color: var(--white-color);
+  background: var(--gradient-color);
+}
+
+/* Social */
+
+.social a i {
+  font-size: 26px;
+  background-clip: text;
+  -moz-background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.social a i:hover {
+  background-image: linear-gradient(to top, #005bbb 50%, #ffd500 50%);
+  background-image: -moz-linear-gradient(top, #005bbb 50%, #ffd500 50%);
+  background-image: -webkit-linear-gradient(top, #005bbb 50%, #ffd500 50%);
+}
+
+/* Carousel Control */
+
+.carousel-control-next,
+.carousel-control-prev {
+  filter: invert(100%);
+}
+
+/* Footer */
+
+.footer {
+  position: static;
+  /* border-bottom: 3px solid var(--third-color); */
+}
+
+.text-gray {
+  color: var(--gray-color);
+}

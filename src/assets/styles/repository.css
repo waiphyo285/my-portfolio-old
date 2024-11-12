@@ -1,0 +1,31 @@
+.github-card {
+  display: table;
+  text-decoration: none;
+  box-sizing: border-box;
+  cursor: pointer;
+}
+
+.github-card:hover {
+  transition: all 0s ease-out;
+  box-shadow: var(--gray-color) 1px 1px 5px 0px !important;
+}
+
+.github-card>h3 {
+  font-size: 18px;
+}
+
+.github-card__desc {
+  display: block;
+  min-height: 78px;
+  margin-bottom: 10px;
+}
+
+.github-card__meta {
+  margin-right: 20px;
+}
+
+.github-card__center {
+  display: table-cell;
+  vertical-align: middle;
+  text-align: center;
+}

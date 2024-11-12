@@ -1,0 +1,39 @@
+{
+  "status": 200,
+  "result": [
+    {
+      "id": 2,
+      "src": "/images/lotties/female-web-development.json",
+      "lang": [
+        "devicon-html5-plain",
+        "devicon-css3-plain",
+        "devicon-bootstrap-plain",
+        "devicon-tailwindcss-plain",
+        "devicon-php-plain",
+        "devicon-javascript-plain",
+        "devicon-typescript-plain",
+        "devicon-jquery-plain",
+        "devicon-react-plain",
+        "devicon-nextjs-plain",
+        "devicon-redux-plain",
+        "devicon-nodejs-plain",
+        "devicon-nestjs-plain",
+        "devicon-express-original",
+        "devicon-npm-original-wordmark",
+        "devicon-laravel-plain",
+        "devicon-mysql-plain",
+        "devicon-mongodb-plain",
+        "devicon-socketio-plain",
+        "devicon-graphql-plain",
+        "devicon-redis-plain",
+        "devicon-git-plain",
+        "devicon-github-plain",
+        "devicon-sourcetree-original",
+        "devicon-digitalocean-plain",
+        "devicon-amazonwebservices-plain-wordmark",
+        "devicon-circleci-plain",
+        "devicon-docker-plain"
+      ]
+    }
+  ]
+}

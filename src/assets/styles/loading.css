@@ -1,0 +1,7 @@
+/* Loading */
+
+.load-container {
+    display: flex;
+    align-items: center;
+    min-height: 100vh;
+}

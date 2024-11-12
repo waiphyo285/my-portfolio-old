@@ -1,0 +1,168 @@
+{
+  "status": 200,
+  "result": [
+    {
+      "id": 1,
+      "title": "Who am I",
+      "paragraph": [
+        "I firmly believe in pursuing careers aligned with one's talents and passions. Web development is my chosen profession, reflecting my confidence in this field. I am dedicated to hard work and honesty. I graduated from the University of Computer Studies, Meiktila, with a degree in Computer Science and enhanced my knowledge with modern web design and development classes.",
+        "My educational background led me to become a <b>Software Engineer</b>, where I thrive on finding innovative solutions for everyday challenges. With over 4 years of experience, I've honed my critical thinking and collaboration skills. I greatly enjoy working within a team and have made significant contributions to over a dozen projects."
+      ]
+    },
+    {
+      "id": 2,
+      "title": "About",
+      "experiences": {
+        "title": "Experiences",
+        "icon": "bi-briefcase",
+        "data": [
+          {
+            "id": 6,
+            "title": "⏳ Software Engineer",
+            "sub-title": "🏢 CloudE8 Pte Ltd",
+            "portfolio": "https://www.cloude8.com/",
+            "duration": "04/24 - Present"
+          },
+          {
+            "id": 5,
+            "title": "⌚ Full Stack Developer",
+            "sub-title": "🏢 PLUS IMPACT Co.,Ltd",
+            "portfolio": "https://plustalent.co/",
+            "duration": "02/24 - 04/24"
+          },
+          {
+            "id": 4,
+            "title": "⏳ Frontend Developer",
+            "sub-title": "🏢 D3-SG Pte Ltd",
+            "portfolio": "http://www.d3-sg.com/",
+            "duration": "09/22 - 02/24"
+          },
+          {
+            "id": 3,
+            "title": "⏳ Backend Developer",
+            "sub-title": "🏢 Global New Wave Technology",
+            "portfolio": "http://www.newwave-tech.com/",
+            "duration": "12/19 - 08/22"
+          },
+          {
+            "id": 2,
+            "title": "⏳ Jr. Odoo Developer",
+            "sub-title": "🏢 Global Connect Asia",
+            "portfolio": "https://www.gca.com.mm/",
+            "duration": "08/19 - 11/19"
+          },
+          {
+            "id": 1,
+            "title": "⏳ Internship Program",
+            "sub-title": "🏢 Global Connect Asia",
+            "portfolio": "https://www.gca.com.mm/",
+            "duration": "05/19 - 07/19"
+          }
+        ]
+      },
+      "educations": {
+        "title": "Educations",
+        "icon": "bi-mortarboard",
+        "data": [
+          {
+            "id": 1,
+            "portfolio": "http://ucsmtla.edu.mm",
+            "title": "Computer Science",
+            "sub-title": "🏫 University of Computer Studies, Meiktila",
+            "duration": "12/14 - 08/19"
+          }
+        ]
+      },
+      "hard-skills": {
+        "title": "Hard Skills",
+        "icon": "bi-code-square",
+        "data": [
+          {
+            "id": 0,
+            "portfolio": "#",
+            "title": "Languages",
+            "sub-title": "💻 JavaScript, TypeScript, PHP, Python"
+          },
+          {
+            "id": 1,
+            "portfolio": "#",
+            "title": "Front-End Technologies",
+            "sub-title": "💻 HTML, CSS, Bootstrap, JQuery, React.js, Next.js, Redux"
+          },
+          {
+            "id": 2,
+            "portfolio": "#",
+            "title": "Back-End Technologies",
+            "sub-title": "💻 Node.js, Express.js, Nest.js, MySQL, MongoDB, GraphQL, Redis"
+          },
+          {
+            "id": 3,
+            "portfolio": "#",
+            "title": "Other Tools",
+            "sub-title": "💻 Git, CI-CD, Digital Ocean, AWS, Docker"
+          }
+        ]
+      },
+      "certifications": {
+        "title": "Certifications",
+        "icon": "bi-award",
+        "data": [
+          {
+            "id": 1,
+            "portfolio": "https://www.mcpamyanmar.org/news/itpec-exam-result-exam-date-28-4-2019/attachment/60349795_2437410202946517_3601866690909962240_n/",
+            "title": "IT Passport (IP19-2004)",
+            "sub-title": "🏅 ITPEC held by the guidelines of Myanmar Computer Federation",
+            "duration": "06/19 - No Expired"
+          }
+        ]
+      }
+    },
+    {
+      "id": 3,
+      "title": "Blogs",
+      "articles": [
+        {
+          "id": 1,
+          "title": "My Portfolio Site",
+          "tags": ["WebDev", "React.js", "Redux"],
+          "link": "https://github.com/waiphyo285/waiphyo-portfolio",
+          "paragraph": "This is the source code for this project you have visited. And I have designed and developed with react.js using redux/redux-toolkit state management."
+        },
+        {
+          "id": 2,
+          "title": "API Template with Dashboard",
+          "tags": ["Node.js", "MongoDB", "MySQL", "Redis"],
+          "link": "https://github.com/waiphyo285/itemplate-backend",
+          "paragraph": "I am introduced a simple API template for backend developers using clean architecture based on express application. This repository is meant to help you with improved code."
+        },
+        {
+          "id": 3,
+          "title": "Visit Here - My Personal Notes.",
+          "tags": ["WebDev", "JavaScript", "Programming", "LifeStyle"],
+          "link": "https://blog.waiphyo.space",
+          "paragraph": "Blogging is a fun and flexible way for self-expression and social connection, so I want to share some of my career experiences especially about web development section."
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "title": "Contact",
+      "contacts": [
+        {
+          "id": 1,
+          "icon": "bi-geo-alt",
+          "href": "#",
+          "show-text": "Bangkok, Thailand",
+          "color": "var(--gradient-color)"
+        },
+        {
+          "id": 2,
+          "icon": "bi-envelope",
+          "href": "mailto:waiphyo.dev@gmail.com",
+          "show-text": "waiphyo.dev@gmail.com",
+          "color": "var(--gradient-color)"
+        }
+      ]
+    }
+  ]
+}

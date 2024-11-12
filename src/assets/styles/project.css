@@ -1,0 +1,48 @@
+.project {
+  padding: 0;
+  counter-reset: li;
+  list-style: none;
+}
+
+.project h3 {
+  position: relative;
+  display: block;
+  font-size: 18px;
+  padding: 0.5em 0.5em;
+  margin: 1em 0em 1em 3em;
+  transition: all 0.3s ease-out;
+}
+
+.project h3:hover {
+  cursor: pointer;
+  border-bottom: 1.8px solid var(--third-color);
+}
+
+.project h3:before {
+  content: counter(li);
+  counter-increment: li;
+  position: absolute;
+  top: 50%;
+  left: -2.5em;
+  height: 2em;
+  width: 2em;
+  margin-top: -1em;
+  line-height: 2em;
+  text-align: center;
+  background: var(--second-color);
+}
+
+.project h3:after {
+  position: absolute;
+  content: "";
+  top: 50%;
+  left: -1em;
+  margin-top: -0.5em;
+  border: 0.5em solid transparent;
+  transition: all 0.3s ease-out;
+}
+
+.project h3:hover:after {
+  left: -0.5em;
+  border-left-color: var(--primary-color);
+}

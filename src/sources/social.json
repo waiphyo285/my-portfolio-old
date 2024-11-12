@@ -1,0 +1,29 @@
+{
+  "status": 200,
+  "result": [
+    {
+      "id": 1,
+      "icon": "bi-github",
+      "href": "https://github.com/waiphyo285",
+      "color": "var(--gradient-color)"
+    },
+    {
+      "id": 2,
+      "icon": "bi-linkedin",
+      "href": "https://www.linkedin.com/in/wai-phyo-naing",
+      "color": "var(--gradient-color)"
+    },
+    {
+      "id": 3,
+      "icon": "bi-twitter-x",
+      "href": "https://twitter.com/waiphyo285",
+      "color": "var(--gradient-color)"
+    },
+    {
+      "id": 4,
+      "icon": "bi-mastodon",
+      "href": "https://burma.social/@waiphyo285",
+      "color": "var(--gradient-color)"
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+@font-face {
+  font-family: "Z01-Umoe002";
+  src: url("../fonts/mm_lat_yay_font/MM\ Lat\ Yay.ttf");
+}
+
+@font-face {
+  font-family: "Myanmar Yinmar";
+  src: url("../fonts/mm_unicode_20/Myanmar\ Yinmar\ Regular.ttf");
+}
+
+@font-face {
+  font-family: 'Quicksand';
+  src: url('../fonts/Quicksand/static/Quicksand-Medium.ttf') format('truetype');
+  font-weight: 500;
+  font-style: normal;
+}

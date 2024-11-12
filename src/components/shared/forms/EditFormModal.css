@@ -1,0 +1,23 @@
+label {
+    width: 100%;
+    font-size: 1rem;
+    margin: 3px 0;
+}
+
+.card-input-element+.card {
+    color: #6666cc;
+    height: calc(18px + 2*1rem);
+    border: 2px solid transparent;
+    border-radius: 4px;
+}
+
+.card-input-element+.card:hover {
+    cursor: pointer;
+}
+
+.card-input-element:checked+.card {
+    border: 2px solid #6666cc;
+    transition: border .3s;
+    -o-transition: border .3s;
+    -webkit-transition: border .3s;
+}

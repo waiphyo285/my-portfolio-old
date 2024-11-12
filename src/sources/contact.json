@@ -1,0 +1,23 @@
+{
+  "status": 200,
+  "result": [
+    {
+      "id": 1,
+      "icon": "bi-whatsapp",
+      "href": "https://wa.me/959969616725",
+      "color": "var(--gradient-color)"
+    },
+    {
+      "id": 2,
+      "icon": "bi-skype",
+      "href": "https://join.skype.com/invite/WJJFRXLTcCG9",
+      "color": "var(--gradient-color)"
+    },
+    {
+      "id": 3,
+      "icon": "bi-envelope",
+      "href": "mailto:waiphyo.dev@gmail.com",
+      "color": "var(--gradient-color)"
+    }
+  ]
+}
